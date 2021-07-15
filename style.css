@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.index {
+    padding: 20px 0;
+    border: 2px solid;
+}
+#items {
+    display: flex;
+    justify-content: space-around;
+}
+#intro > h1, #intro > h2 {
+    text-align: center;
+    margin-top: 5rem;
+}
+.examples {
+    display: flex;
+    margin-top: 5rem;
+}
+.example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 15px;
+}
+.example > img {
+    height: 150px; 
+    width: 200px; 
+    border-radius: 50px;
+}
+.example > h3 {
+    text-align: center;
+}
+.example > p {
+    text-align: center;
+    font-size: 20px;
+}
+.info {
+    text-align: center;
+    margin: 25px;
+}
+#us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+#us > p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.we-are {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    margin: 25px;
+    padding: 15px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 2px solid;
+    text-align: justify;
+}
+.card > img{
+    width: 200px;
+    height: 150px;
+    align-self: center;
+}
+.card > p {
+    line-height: 1.5;
+    margin: 10px;
+    font-size: 18px;
+}
+.onu {
+    font-size: 18px;
+    margin: 2%;
+    display: flex;
+    line-height: 1.5;
+    text-align: justify;
+}
+.onu p {
+    flex: 1;
+    margin: 10px
+}
+.ods {
+    display: grid;
+    grid-template-areas: 
+    'ods-2 ods-6'
+    'ods-12 ods-14'
+    'ods-15 ods-15'
+    ;
+    margin: 2% 4%;
+    grid-gap: 25px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#ods-2 {
+    grid-area: ods-2;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+#ods-2 > a {
+    align-self: center;
+}
+#ods-6 {
+    grid-area: ods-6;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+#ods-6 > a {
+    align-self: center;
+}
+#ods-12 {
+    grid-area: ods-12;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+#ods-12 > a {
+    align-self: center;
+}
+#ods-14 {
+    grid-area: ods-14;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+#ods-14 > a {
+    align-self: center;
+}
+#ods-15 {
+    grid-area: ods-15;
+    display: flex;
+    flex-direction: column;
+}
+#ods-15 > a{
+    align-self: center;
+}
+.service-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
